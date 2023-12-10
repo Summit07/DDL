@@ -5,6 +5,7 @@
 // let isSquare = true
 
 // time complexity O(n*2)
+
 function isSquareCheck(arr1, arr2) {
   for (let i = 0; i < arr1.length; i++) {
     let isSquare = false;
