@@ -1,5 +1,7 @@
 // Perfact Num ===  when sum of all the factorial of the number is equal to the number itself called Perfact Num
 // example 6 = 1*2*3 = 1+2+3 = 6
+// 28 = 1*2*4*7*14 =  1+2+4+7+14 = 28
+
 
 const isPerfact = (num) => {
   let result = true;
