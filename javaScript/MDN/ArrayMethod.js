@@ -62,4 +62,44 @@ let everys = arr.every((item, index, array) => {
 let finds = arr.find((item, index, array) => {
   return item < 3;
 });
-console.log(finds);
+// console.log(finds);
+
+//Spred and Rest Operator
+
+const num2 = [9, 8, 7, 6];
+
+const newNum = [...arr, ...num2];
+// console.log(newNum);
+const newArrss = arr.concat(num2);
+// console.log(newArrss);
+
+//Slice
+
+let newArray = arr.slice(1, 3);
+// console.log(newArray);
+
+// Splice === arr.splice(p,d,f)
+
+// let spliceArr = arr.splice(1, 2, ...[0, 0, 0]);
+// console.log(spliceArr);
+// console.log(arr);
+
+// let arrDummy = arr.fill(0);
+// console.log(arrDummy);
+// arr.length = 1;
+// console.log(arr);
+
+const getIndes = arr.findIndex((item, index, arr) => {
+  console.log(arr, index);
+  return item === 1;
+});
+
+// console.log(getIndes);
+
+// Flat
+
+// const getFlat = arr.flat(1);
+// console.log(getFlat);
+
+const getSort = arr.sort((a, b) => b - a);
+console.log(getSort);
